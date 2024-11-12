@@ -1,0 +1,1 @@
+curl -X POST http://localhost:3000/teacher -H "Content-Type: application/json" -d '{"TID":"1","firstName": "John","middleName": "Doe","lastName": "Smith","age": 35,"phone": "1234567890","phone2": "9876543210","classID": "123","birthDay": "1990-01-01","nationality": "American","address": "123 Main St, Anytown, USA" }'
